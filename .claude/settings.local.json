@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__obsidian-mcp-server__obsidian_read_note",
+      "mcp__obsidian-mcp-server__obsidian_list_notes",
+      "Bash(mkdir:*)",
+      "Bash(npm install)",
+      "Bash(npm run start:dev:*)",
+      "Bash(curl:*)",
+      "Bash(tee:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npx vite:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

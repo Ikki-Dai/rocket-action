@@ -1,0 +1,19 @@
+<template>
+  <div class="placeholder-view">
+    <h1>任务管理</h1>
+    <p>任务管理功能开发中...</p>
+    <router-link to="/dashboard" class="btn btn-primary">返回首页</router-link>
+  </div>
+</template>
+
+<style scoped>
+.placeholder-view {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+</style>
